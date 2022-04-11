@@ -1,0 +1,34 @@
+body{
+  background-image: url(assets/newback.jpg);
+  margin: 0%;
+  padding: 0%;
+}
+
+nav{
+
+    background-color: #ECECEC;
+    height: 80px;
+    margin: 0%;
+    display: grid;
+    grid-template-areas: 
+    'logo logotext . .'
+    'logo logotext hcasitting burgermenu'
+    'logo logotext hcasitting burgermenu'
+    'logo logotext hcasitting burgermenu'
+    ;
+    
+}
+.logo
+{
+    grid-area: logo;
+}
+.hcasitting{
+    grid-area: hcasitting;
+}
+.burgermenubillede{
+    height: 30px;
+    grid-area: burgermenu;
+}
+h1{
+grid-area: logotext;
+}

@@ -8,25 +8,27 @@ nav{
 
     background-color: #ECECEC;
     height: 80px;
-    margin: 0%;
+    margin: auto;
     display: grid;
     grid-template-areas: 
     'logo logotext . .'
     'logo logotext hcasitting burgermenu'
-    'logo logotext hcasitting burgermenu'
-    'logo logotext hcasitting burgermenu'
-    ;
+    '. . hcasitting .';
+    grid-template-rows: 1fr 1.5fr 0.5fr;
     
 }
 .logo
 {
     grid-area: logo;
+    height: 80px;
 }
 .hcasitting{
     grid-area: hcasitting;
+    height: 80px;
 }
 .burgermenubillede{
     height: 30px;
+
     grid-area: burgermenu;
 }
 h1{

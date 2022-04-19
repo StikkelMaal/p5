@@ -53,3 +53,10 @@ header{
 background-image: url(assets/bannermobile.jpg);
 height: 120px;
 }
+
+h2{
+font-family: utopiasemi;
+font-size: 18px;
+text-align: center;
+}
+

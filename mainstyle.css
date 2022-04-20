@@ -3,17 +3,21 @@ body{
   margin: 0%;
   padding: 0%;
 }
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 @font-face {
     font-family: utopiasemi;
     src: url(assets/font/UtopiaStd-BoldCaptIt.otf);
 }
 header{
-background-image: url(assets/bannermobile.jpg);
+background-image: url(assets/ikonogbanner/bannermobile.jpg);
 height: 120px;
 }
 @media(min-width:768px){
   header{
-    background-image: url(assets/bannerpc.jpg);
+    background-image: url(assets/ikonogbanner/bannerpc.jpg);
     height: 220px;
     width: auto;
     margin-left: 80px;
@@ -26,7 +30,7 @@ height: 120px;
     height: 60px;
 }
 .hcasitting{
-    height: 100px;
+    height: 150px;
     margin-bottom: -60px;
 }
 .crum{
@@ -89,7 +93,10 @@ a{
     transition: all 0.3s ease-in-out;
     background-color:#2d2d33;    
 }
-
+.hcasitting{
+  height: 100px;
+  margin-bottom: -50px;
+}
 .crum{
   display: none;
 }
@@ -118,7 +125,7 @@ a{
     width: 100%;
     text-align: center;
     font-size: 20px;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
     margin: 0%;
 }
 
@@ -126,3 +133,26 @@ a{
     top: 0;
 }}
 /* navbar 2.0 slut */
+h1 {
+  font-family: utopiasemi;
+  font-size: 20px;
+  text-align: center;
+}
+h2{
+  font-family: utopiasemi;
+  font-size: 18px;
+  text-align: center;
+}
+.andreasobox{
+  background-color: #ECECEC;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.billedebox{
+  width: 100%;
+}
+.læsmeretext{
+  background-color: #ECECEC;
+  font-family: utopiasemi;
+}

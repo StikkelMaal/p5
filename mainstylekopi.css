@@ -1,0 +1,100 @@
+/* mainstyle.css kopi */
+
+body{
+  background-image: url(assets/newback.jpg);
+  margin: 0%;
+  width: 100%;
+}
+@font-face {
+    font-family: utopiasemi;
+    src: url(assets/font/UtopiaStd-BoldCaptIt.otf);
+}
+/* navigationsbar start */
+nav{
+
+    background-color: #ECECEC;
+    height: 80px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    'logo logotext hcasitting burgermenu'
+    'logo logotext hcasitting burgermenu'
+    '. . hcasitting .';
+    grid-template-rows: 1fr 1.5fr 0.5fr;
+    
+}
+.logo
+{
+    grid-area: logo;
+    height: 80px;
+}
+.hcasitting{
+    grid-area: hcasitting;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.burgermenubillede{
+    height: 30px;
+    grid-area: burgermenu;
+    margin-top: 25px;
+}
+h1{
+grid-area: logotext;
+margin-top: 18px;
+margin-bottom: 20px;
+margin-left: -15px;
+font-family: utopiasemi;
+font-size: 20px;
+color: #2D2D33;
+
+
+}
+
+/* navigationsbar slut */
+header{
+background-image: url(assets/bannermobile.jpg);
+height: 120px;
+}
+
+h2{
+font-family: utopiasemi;
+font-size: 18px;
+text-align: center;
+}
+
+  /* galleri start*/
+
+  .gallerygrid {
+      display: grid;
+      row-gap: 20px;
+      column-gap: 20px;
+      grid-template-areas:
+      'gallery1 gallery2'
+      'gallery3 gallery4'
+      'gallery5 gallery6'
+      'gallery7 gallery8'
+      ;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    
+  }
+  .etgallery {grid-area: gallery1;}
+  .togallery {grid-area: gallery2;}
+  .tregallery {grid-area: gallery3;}
+  .firegallery {grid-area: gallery4;}
+  .femgallery {grid-area: gallery5;}
+  .seksgallery {grid-area: gallery6;}
+  .syvgallery {grid-area: gallery7;}
+  .ottegallery {grid-area: gallery8;}
+.gallery {
+width: 100%; 
+height: auto;
+align-items: center;
+}
+
+.gallery:hover{
+    opacity:50%;}
+
+  /* galleri slut */

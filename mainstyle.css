@@ -92,4 +92,7 @@ height: auto;
 align-items: center;
 }
 
+.gallery:hover{
+    opacity:50%;}
+
   /* galleri slut */

@@ -11,6 +11,15 @@ header{
 background-image: url(assets/bannermobile.jpg);
 height: 120px;
 }
+@media(min-width:768px){
+  header{
+    background-image: url(assets/bannerpc.jpg);
+    height: 220px;
+    width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    }
+}
   /* navbar 2.0 start */
 .logo
 {
@@ -18,7 +27,13 @@ height: 120px;
 }
 .hcasitting{
     height: 100px;
-    margin-bottom: -40px;
+    margin-bottom: -60px;
+}
+.crum{
+  width: 90px;
+  height: auto;
+  opacity: 0;
+  text-align: center;
 }
 li{
   list-style: none;  
@@ -46,21 +61,25 @@ a{
     align-items: center;
     gap: 40px;
     font-family: utopiasemi;
+    text-align: center;
 }
 
 .nav-link{
-    transition: 0.7s ease;
+    text-align: center;
 }
 
-.nav-link:hover{
-    color: #D70000;
+.nav-link:hover .crum{
+  opacity: 1;
+  transition: 1s;
 }
+
+
 
 .hamburger{
     display: none;
     cursor: pointer;
 }
-
+@media(max-width:768px){
 .bar{
     display: block;
     width: 25px;
@@ -71,7 +90,7 @@ a{
     background-color:#2d2d33;    
 }
 
-@media(max-width:768px){
+
   .hamburger{
       display: block;
   } 

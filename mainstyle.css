@@ -1,7 +1,7 @@
 body{
   background-image: url(assets/newback.jpg);
   margin: 0%;
-  padding: 0%;
+  width: 100%;
 }
 @font-face {
     font-family: utopiasemi;
@@ -48,6 +48,7 @@ color: #2D2D33;
 
 
 }
+
 /* navigationsbar slut */
 header{
 background-image: url(assets/bannermobile.jpg);
@@ -61,39 +62,34 @@ text-align: center;
 }
 
   /* galleri start*/
-  div.gallery:hover {
-    opacity: 50%;
-  }
 
   .gallerygrid {
       display: grid;
+      row-gap: 20px;
+      column-gap: 20px;
       grid-template-areas:
       'gallery1 gallery2'
       'gallery3 gallery4'
       'gallery5 gallery6'
       'gallery7 gallery8'
       ;
-      grid-template-columns: 1fr 1fr;
       margin-right: 20px;
       margin-left: 20px;
+      margin-bottom: 20px;
     
   }
-  .etgallery {grid-area: gallery1; max-width: 150px;}
-  .togallery {grid-area: gallery2; max-width: 150px;}
-  .tregallery {grid-area: gallery3; max-width: 150px;}
-  .firegallery {grid-area: gallery4; max-width: 150px;}
-  .femgallery {grid-area: gallery5; max-width: 150px;}
-  .seksgallery {grid-area: gallery6; max-width: 150px;}
-  .syvgallery {grid-area: gallery7; max-width: 150px;}
-  .ottegallery {grid-area: gallery8; max-width: 150px;}
+  .etgallery {grid-area: gallery1;}
+  .togallery {grid-area: gallery2;}
+  .tregallery {grid-area: gallery3;}
+  .firegallery {grid-area: gallery4;}
+  .femgallery {grid-area: gallery5;}
+  .seksgallery {grid-area: gallery6;}
+  .syvgallery {grid-area: gallery7;}
+  .ottegallery {grid-area: gallery8;}
+.gallery {
+width: 100%; 
+height: auto;
+align-items: center;
+}
 
-  body{
-    background-image: url(assets/newback.jpg);
-    margin: auto;
-    padding: auto;
-  }
-  @font-face {
-      font-family: utopiasemi;
-      src: url(assets/font/UtopiaStd-BoldCaptIt.otf);
-  }
   /* galleri slut */

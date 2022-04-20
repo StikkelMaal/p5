@@ -5,29 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mainstyle.css" />
-    <script src="videoplayer.js" defer></script>
+    <script src="js/burgermenu.js" defer></script>
     <title>index</title>
   </head>
 
   <body>
-    <nav>
-      <img src="assets/blacklogo.png" alt="hcaandersenlogo" class="logo" />
-      <h1>
-        H.C. Andersen
-        <br />
-        Festspillene
-      </h1>
+    <nav class="navbar">
+      <a href="#" class="nav-branding"
+        ><img src="assets/blacklogo.png" alt="hcaandersenlogo" class="logo" />
+      </a>
       <img
         src="assets/hcasitting.png"
         alt="hcandersensitting"
         class="hcasitting"
       />
-      <img
-        src="assets/burgermenu.png"
-        alt="burgermenu"
-        class="burgermenubillede"
-      />
+
+      <ul class="nav-menu">
+        <li>
+          <a href="#" class="nav-link">Køb Billetter</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Nyheder</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Støt Os</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Om Os</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Frivilige</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Sponsorer</a>
+        </li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
+    <nav></nav>
     <header></header>
     <main></main>
   </body>

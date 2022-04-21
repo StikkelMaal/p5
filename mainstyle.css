@@ -179,3 +179,8 @@ h2{
   font-size: 15px;
   text-align: center;
 }
+
+hr{
+  height: 2px;
+  background-color: #707070;
+}

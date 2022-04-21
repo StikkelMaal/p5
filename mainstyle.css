@@ -199,5 +199,8 @@ h2{
   
 }
 
-
+hr{
+  height: 2px;
+  background-color: #707070;
+}
 

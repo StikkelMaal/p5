@@ -1,5 +1,5 @@
 body{
-  background-image: url(assets/newback.jpg);
+  background-image: url(assets/ikonogbanner/newback.jpg);
   margin: 0%;
   padding: 0%;
 }
@@ -83,6 +83,8 @@ a{
     display: none;
     cursor: pointer;
 }
+
+
 @media(max-width:768px){
 .bar{
     display: block;
@@ -157,3 +159,45 @@ h2{
   font-family: utopiasemi;
   text-align: right;
 }
+
+.mobilepay{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.stot-hc{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.tekstbox{
+  background-color: #ECECEC;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Frivillig{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.tekstbox1{
+  background-color: #ECECEC;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  
+}
+
+
+

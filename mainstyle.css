@@ -40,7 +40,7 @@ height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .splash img{
@@ -65,13 +65,13 @@ height: 120px;
   text-align: center;
 }
 li{
-  list-style: none;  
+  list-style: none;
 }
 
 a{
     color: #2D2D33;
     text-decoration: none;
-    
+
 }
 
 .navbar{
@@ -116,7 +116,7 @@ a{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color:#2d2d33;    
+    background-color:#2d2d33;
 }
 .hcasitting{
   height: 100px;
@@ -127,8 +127,8 @@ a{
 }
   .hamburger{
       display: block;
-  } 
-  
+  }
+
   .hamburger.active .bar:nth-child(2){
       opacity: 0;
   }
@@ -136,7 +136,7 @@ a{
       transform: translateY(8px) rotate(45deg);
     }
   .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);      
+      transform: translateY(-8px) rotate(-45deg);
 }
 
 .nav-menu{
@@ -157,6 +157,22 @@ a{
 .nav-menu.active{
     top: 0;
 }}
+
+.omosbillede{
+    margin-left: 60px;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 70%;
+    max-height: 500px;
+
+}
+.omos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-right: 50px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
 /* navbar 2.0 slut */
 h1 {
   font-family: utopiasemi;

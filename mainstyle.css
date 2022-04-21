@@ -169,8 +169,8 @@ a{
 .omos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-right: 50px;
-    margin-left: 35px;
+    margin-right: 45px;
+    margin-left: 45px;
     margin-bottom: 25px;
 }
 /* navbar 2.0 slut */

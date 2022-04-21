@@ -162,6 +162,7 @@ h1 {
   font-family: utopiasemi;
   font-size: 20px;
   text-align: center;
+  padding: 20px;
 }
 h2{
   font-family: utopiasemi;
@@ -216,6 +217,11 @@ hr{
   margin-top: 20px;
   border-radius: 10px;
   text-align: center;
+ }
+
+ .knap{
+   text-align: center;
+   padding-top: 55px;
  }
 
  

@@ -8,6 +8,7 @@
     <script src="js/burgermenu.js" defer></script>
     <script src="js/splash.js" defer></script>
     <script src="js/menukanpper.js" defer></script>
+    <script src="js/gallery.js" defer></script>
     <title>Om os</title>
   </head>
 
@@ -130,6 +131,77 @@
       </div>
     </nav>
     <header></header>
+
+ <!-- alvis slide show -->
+
+  <!-- Container for the image gallery -->
+  <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="assets/gallery/2lise.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="assets/gallery/3lise.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="assets/gallery/4lise.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+        <img src="assets/gallery/5lise.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="assets/gallery/6lise.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="assets/gallery/7lise.jpg" style="width:100%">
+    </div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="assets/gallery/2lise.jpg" style="width:100%" onclick="currentSlide(1)" alt="Tommelise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/gallery/3lise.jpg" style="width:100%" onclick="currentSlide(2)" alt="Tommelise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/gallery/4lise.jpg" style="width:100%" onclick="currentSlide(3)" alt="Tommelise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/gallery/5lise.jpg" style="width:100%" onclick="currentSlide(4)" alt="Tommelise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/gallery/6lise.jpg" style="width:100%" onclick="currentSlide(5)" alt="Tommelise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="assets/gallery/7lise.jpg" style="width:100%" onclick="currentSlide(6)" alt="Tommelise">
+      </div>
+      </div>
+    </div>
+  </div>
+
     <!-- lucas -->
     <main>
 
@@ -160,6 +232,7 @@ Klaus Pagh undrede sig over, hvorfor man ikke havde et lignende tiltag herhjemme
 
 </p>
   </div>
+
     </main>
 
 <!-- annas FOOTER -->

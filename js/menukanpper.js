@@ -1,4 +1,4 @@
-let pages = ["index.html", "købbillet.html", "støtos.html", "omos.html", "frivilige.html", "sponsorer.html"]
+let pages = ["index.html", "købbillet.html", "index.html", "støtos.html", "omos.html", "frivillige.html", "sponsor.html"]
 let topage = 3;
 
 function knap(hvor){

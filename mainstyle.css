@@ -183,6 +183,7 @@ h2{
   text-align: center;
 }
 
+/* frivillig start*/
 .Frivillig{
   display: flex;
   justify-content: center;
@@ -205,3 +206,4 @@ hr{
   background-color: #707070;
 }
 
+/* frivillig slut*/

@@ -202,13 +202,11 @@ hr{
   }
 
  .tekstpriser{
-  word-spacing: 300px;
-  text-indent: 30px;
- }
-
- .tekstpriser2{
-  word-spacing: 322px;
-  text-indent: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
  }
 
  .infobilletter{
@@ -223,6 +221,8 @@ hr{
    text-align: center;
    padding-top: 55px;
  }
+/* køb billet slut */
+
 
  
   

@@ -44,3 +44,8 @@
   changeImage();
   changeImage1();
   changeImage2();
+
+
+  for(let i=0; i<2; i++){
+    console.log(imageArray2[i]);
+}

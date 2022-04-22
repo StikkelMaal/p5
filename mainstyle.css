@@ -159,6 +159,7 @@ h2{
   text-align: right;
 }
 
+/* køb billet start*/
 .mobilepay{
   display: flex;
   justify-content: center;
@@ -185,3 +186,4 @@ hr{
   height: 2px;
   background-color: #707070;
 }
+/* køb billet slut*/

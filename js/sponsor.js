@@ -1,3 +1,5 @@
+  //lucass kode
+  
   let myImage = document.getElementById("mainImage");
     let myImage1 = document.getElementById("mainImage1");
       let myImage2 = document.getElementById("mainImage2");

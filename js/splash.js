@@ -1,3 +1,5 @@
+//lynges kode
+
 let splash = document.getElementById("splash")
 
 function end(){

@@ -7,7 +7,10 @@ function end(){
 }
 
 function time(){
-    setTimeout(end, 1500);
+    if(document.getElementById("splash") !== null){
+        setTimeout(end, 1500);
+    }
+    
 }
 
 time();

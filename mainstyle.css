@@ -6,23 +6,17 @@ body{
   justify-content: center;
   min-height: 100vh;
 }
-
-
 .content{
   height: 287px;
   width: 382px;
   overflow: hidden;
   box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
-
 }
-
-.content .images {
+.content .images{
   height: 100%;
   width: 100%;
 }
-
-.images{
+.images img{
   height: 100%;
   width: 100%;
- 
 }

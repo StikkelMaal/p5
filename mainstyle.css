@@ -53,6 +53,7 @@ height: 120px;
 .logo
 {
     height: 60px;
+    margin-left: 20px;
 }
 .hcasitting{
     height: 150px;
@@ -389,7 +390,10 @@ hr{
 .socialelinks{
   text-align: center;
   padding: 10px;
-  
+}
+
+.iconpush{
+padding-right: 200px;
 }
 
 .logofooter{

@@ -1,4 +1,4 @@
-
+// alvis kode
 let slideIndex = 1;
 showSlides(slideIndex);
 

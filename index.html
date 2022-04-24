@@ -8,15 +8,16 @@
     <script src="js/burgermenu.js" defer></script>
     <script src="js/splash.js" defer></script>
     <script src="js/menukanpper.js" defer></script>
+    <script src="js/staaljava.js" defer></script>
     <title>index</title>
   </head>
   <!-- lynges splash -->
   <body>
     <div class="splash" id="splash">
-      <img src="assets/HCAsplash.gif" alt="Hat bliver samlet op">
+      <img src="assets/HCAsplash.gif" alt="Hat bliver samlet op" />
     </div>
 
-  <!-- anna & staals splash -->
+    <!-- anna & staals splash -->
     <nav class="navbar">
       <a onclick="knap(0)" href="#" class="nav-branding"
         ><img
@@ -119,6 +120,7 @@
           </a>
         </li>
       </ul>
+
       <img
         src="assets/ikonogbanner/hcasitting.png"
         alt="hcandersensitting"
@@ -136,12 +138,10 @@
     <!-- staals forside -->
     <main>
       <div class="andreasobox">
-        <h1>H.C. Andersen Festspillene</h1>
+        <h1 id="h1">H.C. Andersen Festspillene</h1>
 
         <video width="100%" controls>
-          <source
-            src="assets/Lille Claus og Store Claus - trailer 2018.mp4"
-          />
+          <source src="assets/Lille Claus og Store Claus - trailer 2018.mp4" />
         </video>
         <h2>En kulturoplevelse i kulturelle omgivelser</h2>
       </div>
@@ -154,29 +154,48 @@
         />
         <a href="#" class="læsmeretext">Læs mere</a>
       </div>
-
     </main>
     <!-- annas FOOTER -->
-    <footer class="footer"> 
-
+    <footer class="footer">
       <div class="logofooter">
-      <img src="assets/ikonogbanner/whitelogo.png" alt="logo">
+        <img src="assets/ikonogbanner/whitelogo.png" alt="logo" />
       </div>
 
-     <div class="kontakt">
-      <a class="kontaktlink" href="tel:24220956"><img class="billeder" src="assets/ikonogbanner/phone-18-24.png" alt="telefon">+45 24220956</a>
-      <a class="kontaktlink" href="mailto:mail@hcandersenfestspillene.dk"><img class="billeder" src="assets/ikonogbanner/email-3-24.png" alt="Mail">mail@hcandersenfestspillene.dk</a>
-      <a class="kontaktlink" href="#"><img class="billeder" src="assets/ikonogbanner/pin-8-24.png" alt="Adresse">Kanalvej 154C, 5000 Odense C</a>
-     </div>
-     
+      <div class="kontakt">
+        <a class="kontaktlink" href="tel:24220956"
+          ><img
+            class="billeder"
+            src="assets/ikonogbanner/phone-18-24.png"
+            alt="telefon"
+          />+45 24220956</a
+        >
+        <a class="kontaktlink" href="mailto:mail@hcandersenfestspillene.dk"
+          ><img
+            class="billeder"
+            src="assets/ikonogbanner/email-3-24.png"
+            alt="Mail"
+          />mail@hcandersenfestspillene.dk</a
+        >
+        <a class="kontaktlink" href="#"
+          ><img
+            class="billeder"
+            src="assets/ikonogbanner/pin-8-24.png"
+            alt="Adresse"
+          />Kanalvej 154C, 5000 Odense C</a
+        >
+      </div>
 
       <div class="socialelinks">
-          <a class="iconpush" href="https://www.instagram.com/hcafestspil/?hl=da"><img src="assets/ikonogbanner/ig.png" alt="instagram"></a>
-          <a href="https://www.facebook.com/HCAndersenFestspillene/"><img src="assets/ikonogbanner/fb.png" alt="facebook"></a>
+        <a class="iconpush" href="https://www.instagram.com/hcafestspil/?hl=da"
+          ><img src="assets/ikonogbanner/ig.png" alt="instagram"
+        /></a>
+        <a href="https://www.facebook.com/HCAndersenFestspillene/"
+          ><img src="assets/ikonogbanner/fb.png" alt="facebook"
+        /></a>
       </div>
-
-  </footer>
-
+    </footer>
+    <a href="#" onclick="fjernhca(2)" width="1px">nej</a>
+    <a href="#" onclick="fjernhca(1)" width="1px">jo</a>
     <!-- FOOTER -->
   </body>
 </html>

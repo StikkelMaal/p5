@@ -1,7 +1,7 @@
 //lynges kode
 
 let pages = ["index.html", "købbillet.html", "index.html", "støtos.html", "omos.html", "frivillige.html", "sponsor.html"]
-let topage = 3;
+let topage;
 
 function knap(hvor){
     let links = document.getElementsByClassName("nav-link");

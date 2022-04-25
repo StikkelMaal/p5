@@ -22,7 +22,22 @@ height: 120px;
     width: auto;
     margin-left: 80px;
     margin-right: 80px;
+
     }
+
+    .andreasobox{
+
+      width: 500px;
+      margin: 20px;
+      
+    }
+
+    .mainfor{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
 }
 /* lynge splash */
 

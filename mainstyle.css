@@ -169,6 +169,10 @@ h1 {
   font-size: 20px;
   text-align: center;
 }
+
+video{
+  width: 100%;
+}
 h2{
   font-family: utopiasemi;
   font-size: 18px;
@@ -576,6 +580,6 @@ a{
 
 /* galleri slut */
 
-#staal{
+.staal{
   opacity: 0;
 }

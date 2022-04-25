@@ -1,6 +1,6 @@
-var indexValue = 0;
+let indexValue = 0;
       function slideShow(){
-        var x;
+        let x;
         const img = document.getElementsByClassName("frigal");
         for(x = 0; x < img.length; x++){
           img[x].style.display = "none";

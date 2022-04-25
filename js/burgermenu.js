@@ -1,4 +1,4 @@
-//annas kode
+//staal & annas kode
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
